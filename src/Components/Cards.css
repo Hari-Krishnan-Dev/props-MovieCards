@@ -1,0 +1,76 @@
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.outerBox{
+    display: flex;
+    width: 70%;
+    color: white;
+    margin: 2rem 0 3rem 0;
+    border-radius: 1rem;
+    box-shadow: -85px -16px 103px 59px rgba(0,0,0,1);
+}
+
+.divLeft{
+    width: 45%;
+    margin: 1rem;
+}
+.leftTop{
+    display: flex;
+}
+.logoImg{
+    height: 9rem;
+    width: 7rem;
+    margin-right: 1rem;
+}
+.genre{
+    margin-top: 0.5rem;
+}
+.duration{
+    border: 0.1px solid rgb(105, 105, 105);
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    padding: 3px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(18, 13, 13, 1), rgba(0, 0, 0, 0));
+  }
+
+.divRight{
+    width: 55%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position:relative;
+    display:inline-block;
+}
+.wall{
+    
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 74px -4px 167px -42px rgba(0,0,0,0.89) inset;
+}
+.leftBottom p{
+    text-align: left;
+    font-weight: 350;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
